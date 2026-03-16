@@ -18,7 +18,7 @@ const projects = [
     tags: ['React', 'Tailwind CSS'],
     emoji: <img src="/portfolio.png" className="w-auto h-47" />,
     github: 'https://github.com/Darpan7588/My_Portfolio',
-    live: 'https://text-utils-self-two.vercel.app/',
+    live: 'https://my-portfolio-one-kappa-57.vercel.app/',
     featured: false,
   },
   {
