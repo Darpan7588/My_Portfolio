@@ -1,16 +1,54 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website built to showcase who I am, what I build, and what I’m working on.
 
-Currently, two official plugins are available:
+Live Site: https://darpansoni.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This project is a modern developer portfolio designed to present my skills, projects, background, and contact information in a clean and professional format.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It serves as a central place for recruiters, collaborators, and clients to learn more about me and explore my work.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design for mobile, tablet, and desktop
+- Modern and clean UI
+- Fast loading performance
+- Project showcase section
+- Skills / tech stack section
+- About me section
+- Contact section
+- Smooth navigation and user-friendly layout
+- Deployed on Vercel
+
+## Tech Stack
+
+Depending on your build, update this section:
+
+- Next.js
+- React.js
+- TypeScript / JavaScript
+- Tailwind CSS
+- Framer Motion
+- Vercel
+
+## Purpose
+
+The goal of this website is to build a strong online presence and create a professional first impression.
+
+It also acts as a single hub for:
+
+- Resume
+- Projects
+- Skills
+- Contact details
+- Personal brand
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
