@@ -43,12 +43,4 @@ It also acts as a single hub for:
 - Projects
 - Skills
 - Contact details
-- Personal brand
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
