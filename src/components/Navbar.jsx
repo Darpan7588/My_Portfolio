@@ -1,7 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-const links = ['About', 'Skills', 'Project', 'Contact'];
+const links = [
+  { label: 'About', id: 'about' },
+  { label: 'Skills', id: 'skills' },
+  { label: 'Projects', id: 'projects' },
+  { label: 'Contact', id: 'contact' },
+];
 const resumeUrl = '/Darpan-Soni.pdf';
 
 export default function Navbar() {
@@ -15,7 +20,7 @@ export default function Navbar() {
   }, []);
 
   const handleNav = (id) => {
-    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     setOpen(false);
   };
 
@@ -31,13 +36,14 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <ul className="hidden md:flex gap-8">
-          {links.map((l) => (
-            <li key={l}>
+          {links.map(({ label, id }) => (
+            <li key={label}>
               <button
-                onClick={() => handleNav(l)}
+                type="button"
+                onClick={() => handleNav(id)}
                 className="text-gray-300 hover:text-violet-400 transition-colors duration-200 text-sm font-medium tracking-wide uppercase decoration-fuchsia-700"
               >
-                {l}
+                {label}
               </button>
             </li>
           ))}
@@ -54,7 +60,7 @@ export default function Navbar() {
           </a>
           <a
             href="#contact"
-            onClick={(e) => { e.preventDefault(); handleNav('Contact'); }}
+            onClick={(e) => { e.preventDefault(); handleNav('contact'); }}
             className="px-5 py-2 rounded-full border border-violet-500 text-violet-400 text-sm font-semibold hover:bg-violet-500 hover:text-white transition-all duration-200"
           >
             Hire Me
@@ -71,13 +77,14 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden bg-gray-950/95 backdrop-blur-md border-t border-gray-800">
           <ul className="flex flex-col py-4">
-            {links.map((l) => (
-              <li key={l}>
+            {links.map(({ label, id }) => (
+              <li key={label}>
                 <button
-                  onClick={() => handleNav(l)}
+                  type="button"
+                  onClick={() => handleNav(id)}
                   className="w-full text-left px-6 py-3 text-gray-300 hover:text-violet-400 hover:bg-gray-900 transition-colors text-sm font-medium uppercase tracking-wide"
                 >
-                  {l}
+                  {label}
                 </button>
               </li>
             ))}
