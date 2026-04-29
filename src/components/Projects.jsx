@@ -1,5 +1,6 @@
 import { ExternalLink, Github } from 'lucide-react';
 
+
 const projects = [
   {
     title: 'IntelX Forensics Website',
@@ -18,7 +19,7 @@ const projects = [
     tags: ['React', 'Tailwind CSS'],
     emoji: <img src="/portfolio.png" className="w-auto h-47" />,
     github: 'https://github.com/Darpan7588/My_Portfolio',
-    live: 'https://my-portfolio-one-kappa-57.vercel.app/',
+    live: 'https://darpansoni.vercel.app/',
     featured: false,
   },
   {
@@ -38,6 +39,7 @@ const projects = [
     emoji: <img src="/text-utils.png" className="w-auto h-47" />,
     github: 'https://github.com/Darpan7588/Text-Utils',
     live: 'https://text-utils-self-two.vercel.app/',
+    
     featured: false,
   },
 ];

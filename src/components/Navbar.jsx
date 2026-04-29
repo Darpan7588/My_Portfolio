@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-const links = ['About', 'Skills', 'Projects', 'Contact'];
+const links = ['About', 'Skills', 'Project', 'Contact'];
 const resumeUrl = '/Darpan-Soni.pdf';
 
 export default function Navbar() {
