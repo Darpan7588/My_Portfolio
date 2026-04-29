@@ -8,9 +8,6 @@ export default function Footer() {
           &lt;Darpan Soni /&gt;
         </p>
 
-        <p className="text-gray-600 text-sm flex items-center gap-1.5">
-          Built using React &amp; Tailwind CSS
-        </p>
 
         <div className="flex gap-4">
           {[
