@@ -120,7 +120,7 @@ export default function Skills() {
         <div className="mt-16 text-center">
           <p className="text-gray-600 text-sm mb-6 uppercase tracking-widest">Technologies I use daily</p>
           <div className="flex flex-wrap justify-center gap-4">
-            {['MobilEdit','WinHex','KaliLinux','Nmap','BurpSuite','React', 'MySQL', 'Node.js', 'Python', 'Git'].map((tech) => (
+            {['FTKImager', 'Oxygen Forensics','WinHex','KaliLinux','Nmap','BurpSuite','React', 'MySQL', 'Node.js', 'Python', 'Git'].map((tech) => (
               <span
                 key={tech}
                 className="px-5 py-2 rounded-full border border-gray-800 bg-gray-950 text-gray-400 text-sm hover:border-violet-500/50 hover:text-violet-400 hover:bg-violet-500/5 transition-all duration-200 cursor-default"
