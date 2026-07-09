@@ -7,7 +7,9 @@ const links = [
   { label: 'Projects', id: 'projects' },
   { label: 'Contact', id: 'contact' },
 ];
-const resumeUrl = '/Darpan-Soni.pdf';
+const resumeUrl = '/Darpan-Soni_Resume.pdf';
+
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);

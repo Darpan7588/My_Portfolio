@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send, Github, Linkedin, X } from 'lucide-react';
 
-const resumeUrl = '/Darpan-Soni-Resume.pdf';
+const resumeUrl = '/Darpan-Soni_Resume.pdf';
 
 const socials = [
   { icon: Github, href: 'https://github.com/Darpan7588', label: 'GitHub' },
