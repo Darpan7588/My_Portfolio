@@ -7,7 +7,7 @@ const links = [
   { label: 'Projects', id: 'projects' },
   { label: 'Contact', id: 'contact' },
 ];
-const resumeUrl = '/Darpan-Soni_Resume.pdf';
+const resumeUrl = 'public/Darpan-Soni_Resume.pdf';
 
 
 
