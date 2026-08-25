@@ -1,6 +1,6 @@
 import {Github, Linkedin, X, Instagram, ArrowDown} from 'lucide-react';
 
-const resumeUrl = '/Darpan-Soni_Resume.pdf';
+const resumeUrl = '././public/Darpan-Soni_Resume.pdf';
 
 export default function Hero() {
     
